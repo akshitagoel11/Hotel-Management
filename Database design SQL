@@ -1,0 +1,11 @@
+create database hotel_management_system; 
+use hotel_management_system;  
+create table customer ( id bigint primary key auto_increment, name char(50),  
+                       address char(100), phone char(15), email char(30),                                             
+                       id_proof char(20), id_proof_no char(20), males int(2),                                       
+                       females int(2), children(int2)); 
+create table game   ( sno int, gamename varchar(25), charges int ); 
+create table laundry  (sno int, itemname carchar(25), rate int);  
+create table restaurant  (  sno int, item varchar(25), rate int);  
+create table roomtype  (  sno int, item varchar(25), rate int);  
+create table setting  (  sno int, item varchar(25), rate int); 
